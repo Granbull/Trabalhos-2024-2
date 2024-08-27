@@ -20,10 +20,9 @@ label.pack()
 
 
 test = tkinter.Button(root, text="Entrar com e-mail de estudante")
-test['command'] = lambda: test.configure(text="[%s]" % test['text'])
 test.pack()
 
-label = tkinter.Label(root, text="\nou\n")
+label = tkinter.Label(root, text="\n-- ou --\n")
 label.pack()
 
 label = tkinter.Label(root, text="Matrícula", anchor="w")
